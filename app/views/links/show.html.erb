@@ -1,0 +1,30 @@
+<% content_for :activeclass do %>
+<li><a href="/">Home</a></li>
+<li class="active"><a href="<%= new_path %>">New</a></li>
+<li><a href="#contact">Contact</a></li>
+<% end %>
+
+<script type="text/javascript">
+setTimeout('Redirect()',4000);
+function Redirect()
+{
+  location.href = '/';
+}
+</script>
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
+<div style="margin-left: auto;margin-right: auto;	width: 50em;">  
+  <div class="row show-grid">
+    <div class="span11 offset1">
+      
+      
+      <div class="alert-message block-message success">
+        
+  <!-- <a class="close" href="#">&times;</a> -->
+  <p style="font-size:15px"><strong>Well done!</strong> The link you posted has been successfully published! You will be redirected to home page soon or you can click <a href="/" style="color:blue;">here</a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- <%= link_to 'Edit', edit_link_path(@link) %> -->
+

@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  url: MyText
+  title: MyString
+  vote: 1
+  rank: 1.5
+  user: 
+
+two:
+  url: MyText
+  title: MyString
+  vote: 1
+  rank: 1.5
+  user: 

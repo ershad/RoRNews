@@ -1,0 +1,3 @@
+rails generate saffold Link url:text title:string vote:integer rank:float
+rails generate scaffold User name:string email:string
+rails generate saffold Link url:text title:string vote:integer rank:float user:references
